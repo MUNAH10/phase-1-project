@@ -2,7 +2,7 @@
 Hotel Booking
 
 ## Description
-This is an independent appilication that allows people to book hotel rooms while they are on vacation 
+This is an independent appilication that allows people to book hotel rooms while you are on vacation 
 
 ## Built With 
 This application was built eith the following technologies: 
