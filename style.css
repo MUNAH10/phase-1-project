@@ -297,7 +297,7 @@ img{
     }
 }
 
-/* .rooms{
+.rooms{
     margin: 40px 0;
 }
 .room{
@@ -373,7 +373,7 @@ img{
     }
 }
 
-.customers{
+/* .customers{
     margin-top: 40px;
     padding: 40px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
@@ -434,4 +434,4 @@ img{
         width: 100px;
         height: 100px;
     }
-}  */  
+}  */   
