@@ -1,4 +1,4 @@
-/* :root{
+:root{
     --transition: all 0.7s ease;
     --yellow: #42ddf9;
     --dark: #292826;
@@ -48,4 +48,51 @@ img{
     body{
         font-size: 14px;
     }
+}
+/* header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(247, 241, 241, 0.2)), url("") center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+.head-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-top span{
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: var(--transition);
+}
+.head-top span:hover{
+    color: var(--yellow);
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
