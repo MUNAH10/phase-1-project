@@ -1,7 +1,7 @@
  root{
     --transition: all 0.7s ease;
-    --yellow: #f9d342;
-    --dark: #292826;
+    --yellow: #041c86;
+    --dark: hsl(40, 33%, 98%);
 }
 *{
     box-sizing: border-box;
@@ -93,7 +93,7 @@ img{
     margin: 20px 0;
     font-size: 20px;
     font-weight: bold;
-    border: 3px solid #fff;
+    border: 3px solid hsl(0, 9%, 96%);
     background: transparent;
     padding: 13px 20px;
     background: rgba(0, 0, 0, 0.3);
@@ -120,7 +120,7 @@ img{
 
 .sidenav{
     background: var(--dark);
-    color: #fff;
+    color: rgb(16, 13, 187);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -152,7 +152,7 @@ img{
     padding: 12px;
 }
 .navbar li a{
-    color: #fff;
+    color: rgb(16, 26, 172);
     text-transform: capitalize;
     text-decoration: none;
     padding: 15px 0;
@@ -167,7 +167,7 @@ img{
 }
 .sign-up, .log-in{
     background: var(--yellow);
-    color: #fff;
+    color: rgb(16, 26, 172);
 }
 @media(max-width: 400px){
     .sidenav{
@@ -214,7 +214,7 @@ img{
     margin-left: 0;
     margin-right: 0;
     background: var(--yellow);
-    color: #fff;
+    color: rgb(16, 26, 172);
 }
 @media(min-width: 992px){
     .services-container{
@@ -223,7 +223,7 @@ img{
         grid-column-gap: 30px;
     }
     .title h2{
-        font-size: 10px!important;
+        font-size: 35px!important;
     }
 }
 @media(max-width: 500px){
@@ -232,9 +232,9 @@ img{
     }
 }
 
-/* .book{
+.book{
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
-    color: #fff;
+    color: rgb(243, 244, 250);
     padding: 40px 60px;
 }
 .book-form{
@@ -248,8 +248,8 @@ img{
 .book-form input[type = "submit"]{
     margin: 18px 0 0 0;
     background: var(--dark);
-    color: #fff;
-    border: 1px solid #fff;
+    color: #f0ededf5;
+    border: 1px solid hsl(240, 16%, 96%);
 }
 .book-form label, .book-form input{
     width: 100%;
@@ -297,7 +297,7 @@ img{
     }
 }
 
-.rooms{
+/* .rooms{
     margin: 40px 0;
 }
 .room{
@@ -434,4 +434,4 @@ img{
         width: 100px;
         height: 100px;
     }
-}  */ 
+}  */  
