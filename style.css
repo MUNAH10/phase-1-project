@@ -1,4 +1,4 @@
-/* /* root{
+ root{
     --transition: all 0.7s ease;
     --yellow: #f9d342;
     --dark: #292826;
@@ -118,7 +118,7 @@ img{
 }
 
 
-.sidenav{
+/* .sidenav{
     background: var(--dark);
     color: #fff;
     position: fixed;
@@ -434,4 +434,5 @@ img{
         width: 100px;
         height: 100px;
     }
-}
+} */
+  
