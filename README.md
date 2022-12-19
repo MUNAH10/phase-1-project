@@ -1,8 +1,8 @@
 ## Project Name
-Hotel Booking
+THE GRAND HOTEL
 
 ## Description
-This is an independent appilication that allows people to book hotel rooms while you are on vacation 
+This is an independent appilication that allows people to book hotel rooms while they are on vacation 
 
 ## Built With 
 This application was built eith the following technologies: 
@@ -19,3 +19,4 @@ To run the application you need the following
 ## Author
 Muna Hassan
 ## Lincense
+copyright (c)MUNA HASSAN
