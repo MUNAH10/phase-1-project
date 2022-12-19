@@ -6,53 +6,272 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href = "image.logo.svg/">
 </head>
 <body> 
     
-  header>
+
     <h1>Welcome to The Grand Hotel</h1>
+    <h2>Nice and Comfortable Place To Stay</h2>
   </header>
   <nav>
+  </div>
+  <div class = "site-nav">
+      <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+  </div>
+</div>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#rooms">Rooms</a></li>
-      <li><a href="#amenities">Amenities</a></li>
-      <li><a href="#check-in">Check-In</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#customers">Customers</a></li>
+      <li><a href="#contacts">Contacts</a></li>
     </ul>
+    <button class="btn-sign-up">sign up</button>
+    <button class="btn-log-in">log-in</button>
   </nav>
+
   <main>
     <section id="about">
-      <h2>About The Grand Hotel</h2>
+      <h2>The Grand Hotel</h2>
       <p>The Grand Hotel is a luxurious five-star hotel located in the heart of the city. We offer top-of-the-line amenities and impeccable service to make your stay with us truly memorable.</p>
+      <button type="button" class = "head-btn">GET STARTED</button>
     </section>
+
     <section id="rooms">
       <h2>Our Rooms</h2>
       <p>Choose from a variety of room types, including standard rooms, deluxe rooms, and suites. All of our rooms come equipped with plush beds, flat-screen TVs, and high-speed WiFi.</p>
+
+      <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>Rooms</h2>
+
+    </div>
+        <div class = "rooms-container">
+            <article class = "room">
+                <div class = "room-svg">
+          <img src = "Standard.svg" alt = "room svg">
+        
+      <div class = "room-text">
+            <h3>Standard</h3>
+            <!-- <ul>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+          </ul> -->
+          <p>Affordable and Comfy</p>
+            <p class = "rate">
+              <span>$99.00 /</span> Per Night
+          </p>
+                <button type = "button" class = "btn">book now</button>
+              </div>
+            </article>
+
+        </div>
+        <div class = "rooms-container">
+            <article class = "room">
+                <div class = "room-svg">
+                    <img src = "Deluxe.svg" alt = "room svg">
+                </div>
+                <div class = "room-text">
+                    <h3>Deluxe</h3>
+            <!-- <ul>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+          </ul> -->
+            <p>Affordable and Comfy</p>
+              <p class = "rate">
+                <span>$99.00 /</span> Per Night
+            </p>
+            <button type = "button" class = "btn">book now</button>
+          </div>
+        </article>
+
+      <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>rooms</h2>
+        </div>
+         <div class = "rooms-container">
+             <article class = "room">
+                <div class = "room-svg">
+           <img src = "Suites.svg" alt = "room svg">
+         
+             <div class = "room-text">
+                  <h3>Suites</h3>
+            <!-- <ul>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+              <li>
+                  <i class = "fas fa-arrow-alt-circle-right"></i>
+                  Lorem ipsum dolor sit amet.
+              </li>
+          </ul> -->
+                <p>Affordable and Comfy</p>
+                  <p class = "rate">
+                    <span>$99.00 /</span> Per Night
+                </p>
+                <button type = "button" class = "btn">book now</button>
+              </div>
+            </article>
+
+      <!-- <li>Check-in</li>
+      <li>Check-Out</li>
+      <li>Adults</li>
+      <li>Children</li>
+      <li>Book</li> -->
+
     </section>
-    <section id="amenities">
-      <h2>Amenities</h2>
+
+    <div class = "book">
+      <form class = "book-form">
+          <div class = "form-item">
+              <label for = "checkin-date">Check In Date: </label>
+              <input type = "date" id = "chekin-date">
+          </div>
+          <div class = "form-item">
+              <label for = "checkout-date">Check Out Date: </label>
+              <input type = "date" id = "chekout-date">
+          </div>
+          <div class = "form-item">
+              <label for = "adult">Adults: </label>
+              <input type = "number" min = "1" value = "1" id = "adult">
+          </div>
+          <div class = "form-item">
+              <label for = "children">Children: </label>
+              <input type = "number" min = "1" value = "1" id = "children">
+          </div>
+          <div class = "form-item">
+              <label for = "rooms">Rooms: </label>
+              <input type = "number" min = "1" value = "1" id = "rooms">
+          </div>
+          <div class = "form-item">
+              <input type = "submit" class = "btn" value = "Book Now">
+          </div>
+      </form>
+    </div>
+
+    <section id="services">
+      <h2>Services</h2>
       <ul>
-        <li>On-site restaurant</li>
-        <li>Fitness center</li>
-        <li>Outdoor pool</li>
-        <li>Spa</li>
+        <!-- <li>Food Services</li>
+        <li>HouseKeeping</li>
+        <li>Fitness-center</li>
+        <li>Swimmingpool</li>
+        <li>Security</li> -->
       </ul>
+    </div>
+    <div class = "services-container">
+        <article class = "service">
+            </div>
+            <div class = "service-content">
+              <h2>Food Services</h2>
+              <p>the food we serve are of different delicacies</p>
+              <button type = "button" class = "btn">Know More</button>
+          </div>
+        </article>
+      </div>
+      <div class = "services-container">
+          <article class = "service">
+              </div>
+              <div class = "service-content">
+                <h2>HouseKeeping</h2>
+                <p>the food we serve are of different delicacies</p>
+                <button type = "button" class = "btn">Know More</button>
+            </div>
+          </article>
+        </div>
+        <div class = "services-container">
+            <article class = "service">
+                </div>
+                <div class = "service-content">
+                  <h2>Fitness-Centre</h2>
+                  <p>the food we serve are of different delicacies</p>
+                  <button type = "button" class = "btn">Know More</button>
+              </div>
+            </article>
+          </div>
+          <div class = "services-container">
+              <article class = "service">
+                  </div>
+                  <div class = "service-content">
+                    <h2>Swimming-pool</h2>
+                    <p>the food we serve are of different delicacies</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+              </article>
+          <div class = "services-container">
+              <article class = "service">
+                  </div>
+                  <div class = "service-content">
+                    <h2>Security</h2>
+                    <p>the food we serve are of different delicacies</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+              </article>
+
     </section>
-    <section id="check-in">
-      <h2>Check-In</h2>
-      <p>Our check-in time is 3:00 PM and check-out is at 11:00 AM. If you need to check in early or check out late, please let us know in advance and we will do our best to accommodate your request.</p>
+    <section id="customers">
+      <div class = "sec-width">
+        <div class = "title">
+          </div>
+      <h2>Customers</h2>
+      <!-- <p>Our check-in time is 3:00 PM and check-out is at 11:00 AM. If you need to check in early or check out late, please let us know in advance and we will do our best to accommodate your request.</p> -->
+      <div class = "customers-container">
+      <div class = "customers">
+        <div class = "rating">
+            <span><i class = "fa-star"></i></span>
+            <span><i class = "fa-star"></i></span>
+            <span><i class = "fa-star"></i></span>
+            <span><i class = "fa-star"></i></span>
+            <span><i class = "fa-star"></i></span>
+        </div>
+        <h3>Comfortable Living</h3>
+        <p>Accomodations and the services provided were good</p>
+        <img src = "Customer.svg" alt = "customer image">
+        <span>Chris Evans, USA</span>
+    </div>
     </section>
+
+
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Phone: 555-555-5555</p>
+      <p>Phone: 076-568-5555</p>
       <p>Email: info@grandhotel.com</p>
-      <p>Address: 123 Main Street, Anytown USA</p>
+      <p>Address: 1st Avenue, Westlands Nairobi,Kenya
+
+      </p>
     </section>
   </main>
   <footer>
     <p>Copyright 2022 The Grand Hotel</p>
   </footer>
-<script src="index.js"></script>
+
+
+    <script src="index.js"></script>
 </body>
 </html>
