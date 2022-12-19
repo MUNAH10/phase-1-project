@@ -118,7 +118,7 @@ img{
 }
 
 
-/* .sidenav{
+.sidenav{
     background: var(--dark);
     color: #fff;
     position: fixed;
@@ -175,7 +175,7 @@ img{
     }
 }
 
-.title{
+/* .title{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 30px;
@@ -434,5 +434,5 @@ img{
         width: 100px;
         height: 100px;
     }
-} */
+}  */
   
