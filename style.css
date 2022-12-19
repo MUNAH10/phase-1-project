@@ -175,7 +175,7 @@ img{
     }
 }
 
-/* .title{
+.title{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 30px;
@@ -232,7 +232,7 @@ img{
     }
 }
 
-.book{
+/* .book{
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
     color: #fff;
     padding: 40px 60px;
@@ -434,5 +434,4 @@ img{
         width: 100px;
         height: 100px;
     }
-}  */
-  
+}  */ 
