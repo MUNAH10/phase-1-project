@@ -1,0 +1,24 @@
+{
+  "name": "phase-1-project",
+  "version": "1.0.0",
+  "description": "phase-1-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUNAH10/phase-1-project.git"
+  },
+  "keywords": [
+    "Html",
+    "css",
+    "js"
+  ],
+  "author": "MUNA HASSAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MUNAH10/phase-1-project/issues"
+  },
+  "homepage": "https://github.com/MUNAH10/phase-1-project#readme"
+}
